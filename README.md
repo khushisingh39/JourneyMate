@@ -1,6 +1,6 @@
 # JourneyMate🚗📱
 
-**Android Cab-Sharing Application (Academic Project)**
+**Android Cab-Sharing Application**
 
 JourneyMate is an Android application developed to provide a secure, structured and cost‑effective cab‑sharing solution for students of Banasthali Vidyapith. The application replaces unorganized WhatsApp-based coordination with a dedicated, role‑based mobile platform built using modern Android development practices.
 
@@ -113,22 +113,41 @@ All major functional test cases passed successfully.
 
 ---
 
-📱 Screenshots
+## 📱 Screenshots
 
-### Login & Signup
-![Login Page](screenshots/LoginPage.png)
-![OTP Verification](screenshots/OTPVerificationPage.png)
-![Signup Page - Student](screenshots/SignUpPage-student.png)
-![Signup Page - Captain](screenshots/SignUpPage-captain.png)
+### Onboarding & Authentication
 
-### Main Pages
-![Splash Screen](screenshots/SplashScreen.png)
-![Trips Page](screenshots/TripsPage.png)
-![Booking Requests Page](screenshots/BookingRequestsPage.png)
-![Chat List Page](screenshots/ChatListPage.png)
-![Chat Page](screenshots/ChatPage.png)
-![Settings Page](screenshots/SettingsPage.png)
-![Verify Your ID Page](screenshots/VerifyYourIDPage.png)
+![Splash](screenshots/1_SplashScreenPage.png)
+![Choose Role](screenshots/2_ChooseYourRolePage.png)
+![Login Student](screenshots/3_LoginAsStudentPage.png)
+![Login Captain](screenshots/4_LoginAsCaptainPage.png)
+![Reset Password](screenshots/5_ResetPasswordPage.png)
+![Signup Student](screenshots/6_SignUpPage-Student.png)
+![Signup Captain](screenshots/7_SignUpPage-Captain.png)
+![OTP](screenshots/8_OTPVerificationPage.png)
+
+---
+
+### Trip Management
+
+![Host Trip](screenshots/9_HostTripPage.png)
+![Join Trip](screenshots/10_JoinTripPage.png)
+![Available Trips](screenshots/11_AvailableTripPage.png)
+![Booking Notification](screenshots/12_BookingRequestNotification.png)
+![Booking Requests](screenshots/13_BookingRequestsPage.png)
+![Dashboard](screenshots/14_DashboardPage.png)
+![Edit Profile](screenshots/15_EditYourProfilePage.png)
+![My Trips](screenshots/16_MyTripsPage.png)
+![Edit Trip](screenshots/17_EditTripDetailsPage.png)
+
+---
+
+### Communication & Settings
+
+![Chat List](screenshots/18_ChatListPage.png)
+![Chat](screenshots/19_ChatPage.png)
+![Settings](screenshots/20_SettingsPage.png)
+![Delete Account](screenshots/21_DeleteYourAccount.png)
 
 ---
 
