@@ -10,7 +10,7 @@ JourneyMate is a **full-scale Android application** developed to provide a **sec
 
 Banasthali Vidyapith is located approximately **60 km from Jaipur**, making frequent travel costly and inconvenient for students. Existing solutions rely on **informal messaging groups**, which suffer from poor visibility, lack of trust and inefficient coordination.
 
-JourneyMate addresses these challenges by enabling students and verified drivers to **create, discover, and manage shared cab trips** in a structured and reliable manner.
+JourneyMate addresses these challenges by enabling students and verified drivers to **create, discover and manage shared cab trips** in a structured and reliable manner.
 
 ---
 
