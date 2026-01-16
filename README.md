@@ -109,6 +109,8 @@ All major functional test cases passed successfully.
 4. Add your Firebase configuration file (`google-services.json`)
 5. Run on an emulator or physical device (Android 8.0+)
 
+> Note: Firebase configuration files are excluded for security reasons.
+
 ---
 
 ## 📱 Screenshots
