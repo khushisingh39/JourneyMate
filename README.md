@@ -120,14 +120,19 @@ All major functional test cases passed successfully.
 <p float="left">
   <img src="screenshots/1_SplashScreenPage.png" width="220"/>
   <img src="screenshots/2_ChooseYourRolePage.png" width="220"/>
+</p>
+<p float="left">
   <img src="screenshots/3_LoginAsStudentPage.png" width="220"/>
   <img src="screenshots/4_LoginAsCaptainPage.png" width="220"/>
 </p>
 
 <p float="left">
-  <img src="screenshots/5_ResetPasswordPage.png" width="220"/>
   <img src="screenshots/6_SignUpPage-Student.png" width="220"/>
   <img src="screenshots/7_SignUpPage-Captain.png" width="220"/>
+</p>
+
+<p float="left">
+  <img src="screenshots/5_ResetPasswordPage.png" width="220"/>
   <img src="screenshots/8_OTPVerificationPage.png" width="220"/>
 </p>
 
@@ -160,6 +165,9 @@ All major functional test cases passed successfully.
 <p float="left">
   <img src="screenshots/18_ChatListPage.png" width="220"/>
   <img src="screenshots/19_ChatPage.png" width="220"/>
+</p>
+
+<p float="left">
   <img src="screenshots/20_SettingsPage.png" width="220"/>
   <img src="screenshots/21_DeleteYourAccount.png" width="220"/>
 </p>
@@ -175,3 +183,9 @@ This project was developed as a collaborative team effort, where we worked toget
 - **Vaishnavi Singh**
 
 ---
+
+## 🙏 Thank You
+
+Thank you for taking the time to explore JourneyMate. This project represents our learning, teamwork and effort to solve a real‑world problem using Android development best practices. We hope this repository gives you a clear understanding of the application’s design, functionality and potential for future enhancement.
+
+Feedback and suggestions are always welcome.
