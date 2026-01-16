@@ -160,12 +160,16 @@ All major functional test cases passed successfully.
 
 ---
 
-### Communication & Settings
+### Communication
 
 <p float="left">
   <img src="screenshots/18_ChatListPage.png" width="220"/>
   <img src="screenshots/19_ChatPage.png" width="220"/>
 </p>
+
+---
+
+### Settings
 
 <p float="left">
   <img src="screenshots/20_SettingsPage.png" width="220"/>
