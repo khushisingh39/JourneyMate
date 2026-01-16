@@ -2,24 +2,24 @@
 
 **Android Cab-Sharing Application (Academic Project)**
 
-JourneyMate is a **full-scale Android application** developed to provide a **secure, structured and cost‑effective cab‑sharing solution** for students of **Banasthali Vidyapith**. The application replaces unorganized WhatsApp-based coordination with a **dedicated, role‑based mobile platform** built using modern Android development practices.
+JourneyMate is an Android application developed to provide a secure, structured and cost‑effective cab‑sharing solution for students of Banasthali Vidyapith. The application replaces unorganized WhatsApp-based coordination with a dedicated, role‑based mobile platform built using modern Android development practices.
 
 ---
 
 ## 🔍 Problem Overview
 
-Banasthali Vidyapith is located approximately **60 km from Jaipur**, making frequent travel costly and inconvenient for students. Existing solutions rely on **informal messaging groups**, which suffer from poor visibility, lack of trust and inefficient coordination.
+Banasthali Vidyapith is located approximately 60 km from Jaipur, making frequent travel costly and inconvenient for students. Existing solutions rely on informal messaging groups, which suffer from poor visibility, lack of trust and inefficient coordination.
 
-JourneyMate addresses these challenges by enabling students and verified drivers to **create, discover and manage shared cab trips** in a structured and reliable manner.
+JourneyMate addresses these challenges by enabling students and verified drivers to create, discover and manage shared cab trips in a structured and reliable manner.
 
 ---
 
 ## 🎯 Project Objectives
 
-* Design a **centralized cab‑sharing system** for students
-* Reduce travel costs through **ride pooling**
-* Improve **safety and trust** using verified captains (drivers)
-* Provide a **scalable Android solution** using clean architecture
+* Design a centralized cab‑sharing system for students
+* Reduce travel costs through ride pooling
+* Improve safety and trust using verified captains (drivers)
+* Provide a scalable Android solution using clean architecture
 
 ---
 
@@ -90,9 +90,9 @@ All major functional test cases passed successfully.
 
 ## 📐 Architecture & Design
 
-* Follows **MVVM architecture** for separation of concerns
+* Follows MVVM architecture for separation of concerns
 * Modular and maintainable codebase
-* Uses **Firebase + SQLite** for efficient data handling
+* Uses Firebase + SQLite for efficient data handling
 * Designed for future scalability and feature expansion
 
 ---
