@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/anakiwa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chat_list"
+        android:fontFamily="times new roman"
+        android:textColor="@color/st_tropaz"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp"/>
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/glacier"
+        android:divider="@color/anakiwa"
+        android:dividerHeight="3dp"
+        android:background="@android:color/white"/>
+
+</LinearLayout>

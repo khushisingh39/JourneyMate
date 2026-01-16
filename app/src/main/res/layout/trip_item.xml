@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/bg_layout_view"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/tripTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trip_title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"
+        android:textColor="@color/san_juan2"/>
+
+    <TextView
+        android:id="@+id/tripSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seats: 2/4"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/dark_gray"/>
+
+    <TextView
+        android:id="@+id/tripFare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fare: ₹500"
+        android:textSize="14sp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/dark_gray"/>
+
+    <Button
+        android:id="@+id/btnEditTrip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/edittrip"
+        android:backgroundTint="@color/san_juan"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

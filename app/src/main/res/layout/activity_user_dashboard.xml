@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:orientation="vertical"
+        android:background="@color/san_juan">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/hi_dashboard" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/btn_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/edit_profile_details"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/san_juan"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/btn_edit_trip"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/edit_trip"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/san_juan"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+
+        <Button
+            android:id="@+id/btn_request"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/requests"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/san_juan"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/chatListButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_list"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/san_juan"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/settings"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/san_juan"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SplashScreenActivity">
+
+    <LinearLayout
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="129dp"
+            android:layout_height="202dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/journeymate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:text="@string/find_your_cab_companion"
+            android:textColor="#546660"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</RelativeLayout>

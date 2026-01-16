@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/anakiwa2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/hello"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/welcome_illus" />
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/welcome"
+                android:textColor="@color/st_tropaz"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+
+            <Button
+                android:id="@+id/loginasstudent"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/login_as_student"
+                android:textSize="14sp"
+                android:backgroundTint="@color/san_juan"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/loginascaptain"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/login_as_captain"
+                android:textSize="14sp"
+                android:backgroundTint="@color/san_juan"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

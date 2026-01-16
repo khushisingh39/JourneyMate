@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/anakiwa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_verification"
+        android:layout_gravity="center"
+        android:fontFamily="times new roman"
+        android:textColor="@color/st_tropaz"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Verify OTP Button -->
+    <Button
+        android:id="@+id/btnVerifyOtp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/verify_otp"
+        android:backgroundTint="@color/san_juan"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"/>
+
+</LinearLayout>

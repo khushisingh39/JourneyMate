@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "1025132986475",
+    "firebase_url": "https://genericbooking-1c908-default-rtdb.firebaseio.com",
+    "project_id": "genericbooking-1c908",
+    "storage_bucket": "genericbooking-1c908.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025132986475:android:11dc372377cecc366d312e",
+        "android_client_info": {
+          "package_name": "com.example.journeymatesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025132986475-1ppump750nkd1c2sb6ru008n9ggbrqrh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.journeymatesample",
+            "certificate_hash": "f20740226b0e3c1bdeb5d73f46bad43cb72d5dc8"
+          }
+        },
+        {
+          "client_id": "1025132986475-p5ukukc790g4hfrvsd89j4854ihtrv9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.journeymatesample",
+            "certificate_hash": "da43a9563bcded42386fd351dffd3621febc5e2b"
+          }
+        },
+        {
+          "client_id": "1025132986475-miu284f46o15ki48b649anta3u33vc1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQqixP6DMF_KPcx_NadgWuaha6AINO9Gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025132986475-miu284f46o15ki48b649anta3u33vc1r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1025132986475-lr0697geoq0fskr4kg9ddmurfoa2bptc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.geligulu.GenericBooking"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025132986475:android:49e0e5a762c6ca6d6d312e",
+        "android_client_info": {
+          "package_name": "com.genericbookingapp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025132986475-1kc3a9c49lng3gqu7db5tdf1pc4ntsg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.genericbookingapp.app",
+            "certificate_hash": "391763b1d750ccde2ad8664220f4cb561c096047"
+          }
+        },
+        {
+          "client_id": "1025132986475-j466ucesamts3gcn30u9la2a9b2u6ch7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.genericbookingapp.app",
+            "certificate_hash": "da43a9563bcded42386fd351dffd3621febc5e2b"
+          }
+        },
+        {
+          "client_id": "1025132986475-miu284f46o15ki48b649anta3u33vc1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQqixP6DMF_KPcx_NadgWuaha6AINO9Gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025132986475-miu284f46o15ki48b649anta3u33vc1r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1025132986475-lr0697geoq0fskr4kg9ddmurfoa2bptc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.geligulu.GenericBooking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

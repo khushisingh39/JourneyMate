@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".AddTripActivity"
+    android:background="@color/white">
+
+
+    <!-- Profile Button -->
+    <LinearLayout
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ivProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_profile"
+            android:contentDescription="@string/profile_button" />
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+        <TextView
+            android:id="@+id/createyouraccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/trip"
+            android:fontFamily="times new roman"
+            android:textColor="@color/st_tropaz"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <RadioGroup
+                android:id="@+id/toggleGroup"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/toggle_background"
+                android:backgroundTint="#DBECFA"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:layout_gravity="center">
+
+
+                <RadioButton
+                    android:id="@+id/btnHost"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/toggle_selected"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/host"
+                    android:textColor="@color/san_juan2"
+                    android:textSize="16sp"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/btnJoin"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/toggle_unselected"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/join"
+                    android:textColor="@color/san_juan2"
+                    android:textSize="16sp"/>
+
+            </RadioGroup>
+            <!--        <Button-->
+            <!--            android:id="@+id/btnCreate"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="50dp"-->
+            <!--            android:layout_weight="1"-->
+            <!--            android:padding="10dp"-->
+            <!--            android:backgroundTint="@color/dark_green"-->
+            <!--            android:text="CREATE"-->
+            <!--            android:textSize="17dp"-->
+            <!--            android:textColor="@android:color/white"/>-->
+
+            <!--        <Button-->
+            <!--            android:id="@+id/btnSearch"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="50dp"-->
+            <!--            android:layout_weight="1"-->
+            <!--            android:padding="10dp"-->
+            <!--            android:backgroundTint="@color/dark_green"-->
+            <!--            android:text="SEARCH"-->
+            <!--            android:textSize="17dp"-->
+            <!--            android:textColor="@android:color/white" />-->
+        </LinearLayout>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/glacier"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp">
+
+
+
+                <!-- Create Trip Layout -->
+                <LinearLayout
+                    android:id="@+id/layoutCreateTrip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="10dp">
+
+
+                    <EditText
+                        android:id="@+id/etStartLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/from"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:textSize="14sp"
+                        android:background="@drawable/bg_layout_view"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/dark_gray"/>
+
+                    <EditText
+                        android:id="@+id/etDestinationLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/to"
+                        android:background="@drawable/bg_layout_view"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/dark_gray"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/etTotalSeats"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:hint="@string/total_seats"
+                            android:background="@drawable/bg_layout_view"
+                            android:inputType="number"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:padding="10dp"
+                            android:ems="10"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/dark_gray"/>
+
+                        <EditText
+                            android:id="@+id/etAvailableSeats"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:hint="@string/available_seats"
+                            android:background="@drawable/bg_layout_view"
+                            android:inputType="number"
+                            android:layout_marginBottom="10dp"
+                            android:padding="10dp"
+                            android:ems="10"
+                            android:textSize="14sp"
+                            android:layout_gravity="end"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/dark_gray"/>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/enter_date"
+                        android:background="@drawable/bg_layout_view"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:textSize="14sp"
+                        android:inputType="date"
+                        android:focusable="false"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/dark_gray"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/etStartTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:hint="@string/start_time"
+                            android:background="@drawable/bg_layout_view"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:padding="10dp"
+                            android:ems="10"
+                            android:textSize="14sp"
+                            android:inputType="datetime"
+                            android:layout_gravity="start"
+                            android:textColorHint="@color/dark_gray"
+                            android:textColor="@color/black"/>
+
+                        <EditText
+                            android:id="@+id/etEndTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:hint="@string/end_time"
+                            android:background="@drawable/bg_layout_view"
+                            android:layout_marginBottom="10dp"
+                            android:padding="10dp"
+                            android:ems="10"
+                            android:textSize="14sp"
+                            android:inputType="datetime"
+                            android:layout_gravity="end"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/dark_gray"/>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etTotalFare"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/price_per_person"
+                        android:background="@drawable/bg_layout_view"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:textSize="14sp"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/dark_gray"/>
+
+                    <EditText
+                        android:id="@+id/etCarType"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/vehicle_type"
+                        android:background="@drawable/bg_layout_view"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:textSize="14sp"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/dark_gray"/>
+
+                    <Button
+                        android:id="@+id/btnSubmitTrip"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:text="@string/create_trip"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="@color/san_juan"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+
+
+                <!-- Search Trip Layout -->
+                <LinearLayout
+                    android:id="@+id/layoutSearchTrip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:paddingBottom="10dp"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/etSearchStartLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/enter_start_location"
+                        android:background="@drawable/bg_layout_view"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/dark_gray"/>
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="3dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/st_tropaz" />
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="3dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/st_tropaz" />
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="3dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/st_tropaz" />
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="3dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/st_tropaz" />
+                    <View
+                        android:id="@+id/view5"
+                        android:layout_width="3dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/st_tropaz" />
+
+                    <EditText
+                        android:id="@+id/etSearchDestinationLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/enter_destination_location"
+                        android:background="@drawable/bg_layout_view"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/dark_gray"/>
+
+                    <EditText
+                        android:id="@+id/etSearchDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/enter_date"
+                        android:background="@drawable/bg_layout_view"
+                        android:inputType="date"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:textSize="14sp"
+                        android:focusable="false"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/dark_gray"/>
+
+                    <Button
+                        android:id="@+id/btnSearchTrip"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:text="@string/search_trip"
+                        android:backgroundTint="@color/san_juan"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

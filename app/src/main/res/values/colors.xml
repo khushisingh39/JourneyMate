@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="baby_pink">#F4C2C2</color>
+    <color name="gray">#5D5F5F</color>
+    <color name="teal">#8ce9cb</color>
+    <color name="light_teal">#ACF8DF</color>
+    <color name="light_green">#FFFCD5</color>
+    <color name="dark_gray">#545454</color>
+    <color name="bg_opacity">#141A1919</color>
+    <color name="dark_green">#20524D</color>
+
+    <color name="darker_green">#102624</color>
+    <color name="notification_color">#FF4081</color>
+
+
+    <color name="woodland">#4D4927</color>
+    <color name="cumulus">#FFFCD5</color>
+    <color name="cola">#412102</color>
+    <color name="paris_daisy">#FFF56A</color>
+
+
+    <color name="powder_blue">#B8E3E9</color>
+    <color name="anakiwa">#90D5FF</color>
+    <color name="anakiwa2">#99D5FA</color>
+    <color name="picton_blue">#57B9FF</color>
+    <color name="picton_blue2">#8BC8F4</color>
+    <color name="picton_blue3">#C6E2F8</color>
+    <color name="glacier">#77B1D4</color>
+    <color name="smalt_blue">#517891</color>
+    <color name="jordy_blue">#88BDF2</color>
+    <color name="st_tropaz">#355F90</color>
+    <color name="san_juan">#315075</color>
+    <color name="san_juan2">#121D2A</color>
+
+
+    <color name="charlotte">#B3EBF2</color>
+    <color name="charlotte2">#AAF9FF</color>
+    <color name="charlotte3">#BDF5FA</color>
+    <color name="mint_tulip">#C4EEF3</color>
+    <color name="french_pass">#BFFBFF</color>
+    <color name="foam">#E3FDFF</color>
+    <color name="seagull">#85D1DB</color>
+
+
+</resources>

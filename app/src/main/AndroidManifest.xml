@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions for Firebase and internet access -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Declare telephony and SMS hardware as optional -->
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.sms" android:required="false" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JourneyMateSample"
+        tools:targetApi="31">
+
+        <!--Main Activity-->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+        </activity>
+
+        <!--Splash Screen-->
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--Login As Student Activity-->
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CaptainLoginActivity"
+            android:exported="false" />
+
+        <!--Sign Up Activity-->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CaptainSignUpActivity"
+            android:exported="false" />
+
+
+        <!--User Dashboard Activity-->
+        <activity
+            android:name=".UserDashboardActivity"
+            android:exported="false" />
+
+
+        <!-- Firebase Messaging Service -->
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <!-- AddTripActivity -->
+        <activity android:name=".AddTripActivity" android:exported="false" />
+
+        <!-- AddTripActivity -->
+        <activity android:name=".IDVerificationActivity" android:exported="false" />
+
+        <!-- TripActivity -->
+        <activity android:name=".TripActivity" android:exported="false" />
+
+        <!-- ViewTripsActivity -->
+        <activity android:name=".ViewTripsActivity" android:exported="false" />
+
+        <!-- Booking Request Activity -->
+        <activity android:name=".BookingRequestsActivity" android:exported="false" />
+        <!-- Edit Trip Activity -->
+        <activity android:name=".EditTripActivity" android:exported="false" />
+
+        <!-- UserTripsActivity -->
+        <activity android:name=".UserTripsActivity" android:exported="false" />
+
+
+        <!-- Edit Profile Activity -->
+        <activity android:name=".EditProfileActivity" android:exported="false" />
+
+        <activity android:name=".SettingsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <!-- ViewTripsActivity -->
+        <activity android:name=".ForgotPasswordActivity" android:exported="false" />
+
+        <activity android:name=".ChatListActivity" />
+        <activity android:name=".ChatActivity" />
+
+
+
+        <!-- Firebase Configuration -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo_with_background" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/notification_color" />
+        <meta-data
+            android:name="com.google.firebase.analytics.collection_enabled"
+            android:value="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAErY-sVpOP02FLBt_-1ALfcpn8lB9oZs4" />
+
+    </application>
+
+</manifest>
