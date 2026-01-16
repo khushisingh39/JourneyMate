@@ -113,9 +113,22 @@ All major functional test cases passed successfully.
 
 ---
 
-## 📱 Screenshots
+📱 Screenshots
 
-UI screenshots and user flows can be found in the `/screenshots` folder in this repository.
+### Login & Signup
+![Login Page](screenshots/LoginPage.png)
+![OTP Verification](screenshots/OTPVerificationPage.png)
+![Signup Page - Student](screenshots/SignUpPage-student.png)
+![Signup Page - Captain](screenshots/SignUpPage-captain.png)
+
+### Main Pages
+![Splash Screen](screenshots/SplashScreen.png)
+![Trips Page](screenshots/TripsPage.png)
+![Booking Requests Page](screenshots/BookingRequestsPage.png)
+![Chat List Page](screenshots/ChatListPage.png)
+![Chat Page](screenshots/ChatPage.png)
+![Settings Page](screenshots/SettingsPage.png)
+![Verify Your ID Page](screenshots/VerifyYourIDPage.png)
 
 ---
 
